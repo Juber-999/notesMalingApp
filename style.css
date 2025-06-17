@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1674048381806-814bb2126f73?q=80&w=1542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 7px rgb(86, 86, 134);
+}
+
+.note-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note-input input,
+.note-input textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.note-input button {
+  padding: 10px;
+  background-color: rgb(255, 0, 106);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#notes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.note {
+  background: #fff8dc;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.note h3 {
+  margin-top: 0;
+}
+
+.note button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: crimson;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px black;
+}
+
+#title {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(86, 86, 134);
+  padding: 8px;
+  border: none;
+}
+
+#content {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(86, 86, 134);
+}
+
+.icon {
+  font-size: 28px;
+}
+.childDiv {
+  display: inline-block;
+}
+
+button {
+  box-shadow: 5px 5px 5px darkorchid;
+}
